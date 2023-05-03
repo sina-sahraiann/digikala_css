@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    line-height: 1.6;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 12px;
+    direction: ltr;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+:root {
+    --primary-color: #ef394e;
+    --secondary-color: #d6d6e4;
+    --less-imp-text: #a97c6d;
+
+}
+
+
+
+.round-20 {
+    border-radius: 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-start {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+.flex-end {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid {
+    display: grid;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-none {
+    display: none;
+}
+
+.text-right {
+    text-align: right;
+}
+
+i {
+    font-size: 24px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+input {
+    font-size: 11px;
+}
+
+.fade {
+    opacity: 60%;
+}
+
+.non-fade {
+    opacity: 100%;
+}
+
+input {
+    background: none;
+    border: none;
+    font-size: 15px;
+}
+
+input :focus {
+    outline: none;
+}
+
+.full-width {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*margins*/
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.ml-40 {
+    margin-left: 40px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mr-40 {
+    margin-right: 40px;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+.mx-auto {
+    margin-right: auto;
+}

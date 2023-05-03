@@ -1,0 +1,1189 @@
+:root {
+    --primary-color: #ef394e;
+    --secondary-color: #d6d6e4;
+    --less-imp-text: #a97c6d;
+    --green: #39ae00;
+    --purple: #941b80;
+    --green-blue: #007295;
+    --app-color: #3c4b6d;
+
+}
+
+.container {
+    contain: layout style;
+
+}
+
+/*nav*/
+
+.logo {
+    width: 115px;
+    height: 30px;
+}
+
+.secondary-nav {
+
+    width: 100%;
+    padding: 12px 16px 4px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    height: 44px;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    padding: 20px 1rem;
+}
+
+.search-bar .flex {
+    justify-content: flex-end;
+}
+
+nav {
+    margin-bottom: 50px;
+}
+
+.nav2-right .box {
+    margin-right: 30px;
+}
+
+.nav2-right .box div i,
+.nav2 i {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+header .flex {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.cart-log .flex {
+    justify-content: flex-start;
+}
+
+/*banner*/
+
+.banner {
+
+    height: 400px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url("images/banner/c85a43944d2060a27031599b76d7a85771bed489_1661196807.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+
+
+
+
+.banner .arrows div {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.arrows {
+    position: absolute;
+    top: 80%;
+    left: 85%;
+    justify-self: flex-end;
+}
+
+
+/*section1*/
+
+.section1 a div img,
+.section1 a div i {
+    width: 52px;
+    height: 52px;
+    font-size: 52;
+}
+
+.section1 a div i {
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+.section1 a div h3 {
+    opacity: 70%;
+}
+
+.section1 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    margin-top: 24px;
+}
+
+.section1 .flex {
+    flex-direction: column;
+}
+
+.discount h3 {
+    font-size: 12px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 4px 0px;
+}
+
+/*sugg*/
+
+.sugg {
+    display: flex;
+    margin: 24px 96px;
+    padding: 20px 2px;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    background-color: #ef3f55;
+    border-radius: 20px;
+    position: relative;
+}
+
+.sugg .card {
+    text-align: center;
+    padding: 0px 16px;
+    margin-left: 3px;
+    width: 182px;
+    background-color: #fff;
+}
+
+.sugg .flex {
+    background-color: #fff;
+}
+
+.sugg div a img {
+    height: 150px;
+    width: 150px;
+}
+
+.sugg .flex:nth-child(1),
+.sugg .flex:nth-child(7) {
+    border-radius: 20px;
+}
+
+.sugg .card:nth-child(9),
+.sugg .flex:nth-child(9) a div {
+    background-color: inherit;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 16px;
+    width: 182px;
+    background-color: var(--primary-color);
+}
+
+.sugg .card:nth-child(9) img {
+    background-color: var(--primary-color);
+    width: 92px;
+    height: auto;
+}
+
+.sugg .flex {
+    flex-direction: column;
+}
+
+.sugg .card .flex .flex {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sugg .card .flex .flex div {
+    margin-left: 10px;
+}
+
+.sugg .card a .flex-between {
+    flex-direction: row;
+}
+
+/*supermarket-wow*/
+
+.supermarket-wow {
+    margin: auto;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    max-width: 1067px;
+}
+
+.supermarket-wow .products .product-list .box {
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: visible;
+    margin-left: 20px;
+    position: relative;
+}
+
+.supermarket-wow .products .product-list .box img {
+    width: 52px;
+    height: 53px;
+}
+
+.supermarket-wow .products .product-list .box .discount {
+    z-index: 1;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+}
+
+
+
+.supermarket-wow .products .discount {
+    color: var(--green);
+}
+
+.supermarket-wow .title div:first-child h3 {
+    padding: 0.5rem 0.5rem;
+    background-color: var(--green);
+}
+
+.supermarket-wow .title .amazing img {
+    width: 250px;
+}
+
+
+.supermarket-wow .title div:last-child img {
+    width: 92px;
+}
+
+.product-list {
+    position: relative;
+}
+
+/*categories*/
+.a-cards {
+    padding: 10px;
+    max-width: 1304px;
+    margin: 30px auto;
+}
+
+.a-cards .grid {
+
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* .a-cards .grid .card {
+    width: 314px;
+
+}
+
+.a-cards {
+    padding: 10px;
+    max-width: 1304px;
+    margin: 30px auto;
+}
+
+
+
+.a-cards .grid .card img {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+} */
+
+.categories {
+    margin: 30px auto;
+
+}
+
+.categories .flex-column {
+    margin-right: auto;
+    right: 40px;
+}
+
+.categories .header {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.categories .grid {
+    width: 100%;
+    grid-template: repeat(2, 1fr)/repeat(5, 1fr);
+    gap: 70px;
+    margin-right: auto;
+}
+
+/*a-2-cards*/
+
+.a-2-cards {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.a-2-cards div img {
+
+    border-radius: 20px;
+}
+
+/*sugg-2*/
+
+.sugg-2 {
+    margin: auto 100px;
+    direction: rtl;
+}
+
+.sugg-2 .card h3 {
+    opacity: 70%;
+}
+
+.sugg-2 .icon {
+    margin-bottom: 30px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    width: 60px;
+    height: 60px;
+}
+
+
+.sugg-2 .header {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.sugg-2 .text-center {
+    overflow-x: auto;
+    overflow-y: auto;
+    gap: 30px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.sugg-2 .text-center .card {
+    width: 160px;
+}
+
+.famous-brands {
+    max-width: 1304px;
+    width: 100%;
+    margin: 100px auto;
+    direction: rtl;
+}
+
+.famous-brands .flex {
+    justify-content: space-between;
+}
+
+.famous-brands .card {
+    margin-left: 60px;
+    width: 110px;
+}
+
+/*a-3-cards*/
+
+.a-3-cards {
+    margin-right: 30px;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.a-3-cards div img {
+    width: 100%;
+
+    border-radius: 20px;
+}
+
+/*mobile accesories*/
+
+.mobile-accesories {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.mobile-accesories .box {
+    padding: 8px 20px;
+}
+
+.mobile-accesories .sec {
+    padding: 8px;
+}
+
+.mobile-accesories .header {
+    align-items: flex-end;
+
+}
+
+.mobile-accesories .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.digiplus {
+    overflow: hidden;
+    display: flex;
+    justify-content: normal;
+    background-color: var(--purple);
+    border-radius: 10px;
+    max-width: 1300px;
+    padding: 16px;
+    margin: auto;
+}
+
+
+
+.digiplus .box-digi {
+    color: #fff;
+    margin-left: 10px;
+    background-image: url(images/digiplus/plus-widget.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 340px;
+    position: relative;
+}
+
+.digiplus .box-digi .header {
+    margin-right: 24px;
+    margin-top: 24px;
+}
+
+.digiplus .box {
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 436px;
+    height: 356px;
+    padding: 0px 16px;
+}
+
+.digiplus .box .header {
+    margin: 10px 20px;
+}
+
+.digiplus .box:first-child img {
+    width: 116px;
+}
+
+.digiplus .box:nth-child(2) img {
+
+    width: 116px;
+}
+
+.digiplus .box-digi img {
+    width: 128px;
+}
+
+.digiplus .box .card {
+    text-align: center;
+}
+
+.digiplus .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+
+
+.box-digi .flex-column {
+    align-items: flex-end;
+}
+
+.box-digi .header a {
+    margin-top: 10px;
+    color: #fff;
+    border: #fff solid 1px;
+    border-radius: 10px;
+    padding: 0.4rem 0.3rem;
+}
+
+.box-digi .logo {
+    margin-bottom: 20px;
+}
+
+.digiclub {
+    background-color: var(--green-blue);
+    border-radius: 10px;
+    max-width: 1300px;
+    height: 120px;
+    margin: 20px auto;
+    padding: 12px 16px;
+}
+
+
+.digiclub .card img {
+    width: 168px
+}
+
+.digiclub .card {
+    height: 100%;
+}
+
+.digiclub .card {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.digiclub .flex-between {
+    height: 100%;
+
+}
+
+/*MOST BOUGHT*/
+
+.off-cost {
+    text-decoration: line-through;
+    opacity: 0.7;
+    font-size: 12px;
+}
+
+.most-bought {
+    max-width: 1300px;
+    margin: 20px auto;
+    direction: rtl;
+}
+
+.most-bought .header {
+    text-align: center;
+}
+
+.most-bought .grid {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.most-bought .grid .flex {
+    flex-direction: row-reverse;
+}
+
+.most-bought .num {
+    margin-left: 10px;
+}
+
+.most-bought .box {
+    width: 287px;
+}
+
+.most-bought .box img {
+    width: 86px;
+}
+
+.most-bought .header h1 {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.most-bought .num h1 {
+    opacity: 0.6;
+    font-size: 25px;
+}
+
+/*selected*/
+
+.selected {
+    max-width: 1304px;
+    margin: 20px auto;
+}
+
+.selected .grid {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.selected img {
+    width: 150px;
+}
+
+.selected .card {
+    width: 213px;
+}
+
+.selected .discount {
+    margin-left: 35px;
+}
+
+.selected .card .flex-between {
+    align-items: baseline;
+    max-width: 197px;
+}
+
+.selected .cost {
+    font-size: 12px;
+}
+
+.selected .footer {
+    margin-top: 40px;
+}
+
+.a-4-cards {
+    max-width: 1300px;
+    margin: 40px auto;
+}
+
+.a-4-cards .card {
+    max-width: 315px;
+    margin-left: 20px;
+}
+
+.a-4-cards .header {
+    margin: 20px 10px;
+}
+
+.a-4-cards .footer {
+    text-align: right;
+}
+
+/*footer*/
+
+footer {
+    padding: 0px 20px;
+
+}
+
+.footer .logo img {
+    width: 113px;
+}
+
+/*logo*/
+
+footer .logo {
+    margin: 0px auto;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+/*testionials*/
+
+.testmonials {
+    max-width: 1300px;
+    margin: 40px auto 40px;
+}
+
+.testmonials .flex-column {
+    max-width: 324px;
+    padding: 12px 0px;
+}
+
+.testmonials img {
+    width: 56px;
+}
+
+.links .flex {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.links .left-column svg {
+    width: 29px;
+    opacity: 0.5;
+    margin-left: 30px;
+}
+
+.links input {
+    font-family: 'Vazirmatn', sans-serif;
+    text-align: right;
+    width: 100%;
+    background-color: var(--green-blue);
+    padding: 1rem 0.7rem;
+    height: 48px;
+
+}
+
+.links .send-btn {
+    margin-right: 30px;
+    background-color: #5d5dcf;
+    width: 57px;
+    height: 48px;
+}
+
+.links .left-column .flex-column {
+    align-items: flex-end;
+}
+
+.links .left-column h1,
+.links .left-column .cards {
+    margin-bottom: 12px;
+}
+
+.links .right-column {
+    width: 100%;
+    height: 100%;
+    flex: 11;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+
+}
+
+.links .right-column h1 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    opacity: 0.7;
+}
+
+.links .right-column h2 {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.links .left-column {
+    height: 100%;
+    flex: 4;
+    margin-right: 100px;
+}
+
+.links .right-column .box .flex-column {
+    align-items: flex-end;
+    height: 100%;
+}
+
+.links .right-column .box {
+    flex: 1;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.left-column .flex-column {
+    height: 100%;
+}
+
+.links .right-column .container-1 {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links .left-column .send-email form {
+    display: flex;
+}
+
+/*app*/
+
+.app {
+    background-color: var(--app-color);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding: 13px;
+    margin-top: 30px;
+}
+
+.app .box,
+.app .right-side img {
+    width: 142px;
+    margin-left: 20px;
+}
+
+.app .right-side img {
+    width: 44px;
+}
+
+.app .flex-between {
+    padding-top: 8px;
+}
+
+.app .left-side .more {
+    display: flex;
+    background-color: #fff;
+    width: 42px;
+}
+
+
+
+.app .left-side {
+    align-items: flex-start;
+}
+
+.app .cards {
+    flex-wrap: wrap;
+}
+
+
+/*safe*/
+
+.safe .flex-between {
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+
+.safe .right-side div {
+    margin-bottom: 20px;
+}
+
+.safe .right-side {
+    max-width: 767px;
+}
+
+.safe p {
+    font-size: 12px;
+}
+
+.safe .box {
+    width: 75px;
+    margin-left: 30px;
+}
+
+.safe .right-side {
+    align-items: flex-end;
+}
+
+.safe .left-side .flex {
+    align-items: flex-start;
+}
+
+/*media queries*/
+
+@media(max-width : 1024px) {
+
+    header .nav2 {
+        display: none;
+    }
+
+    .section1 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .secondary-nav {
+        display: block !important
+    }
+
+    nav .search-logo .logo {
+        display: none;
+    }
+
+
+
+    .sugg {
+        border-radius: 0px;
+        margin: 16px 0px;
+        padding: 12px 2px;
+        max-width: 100%;
+        overflow-x: scroll;
+        overflow-y: auto;
+        background-color: #ef3f55;
+    }
+
+}
+
+@media(max-width:1280px) {
+    .banner {
+        height: 300px;
+    }
+
+    .supermarket-wow {
+        align-items: flex-end;
+        justify-content: end;
+    }
+
+    .supermarket-wow .title div:first-child {
+        display: none;
+
+    }
+
+    .products .flex .ml-20 {
+        display: none;
+    }
+
+    .supermarket-wow .products {
+        justify-content: space-between;
+    }
+
+    .supermarket-wow .products .discount div i {
+        margin-right: 40px;
+    }
+
+    .digiplus .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .selected .grid {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+
+
+
+}
+
+@media(max-width:1030px) {
+    .a-3-cards {
+
+        flex-wrap: wrap;
+    }
+
+    .famous-brands .card {
+        width: 70px;
+    }
+
+    .categories .grid {
+        grid-template: repeat(4, 1fr)/repeat(3, 1fr);
+    }
+
+    .categories .card:last-child {
+        grid-column: 2/3;
+    }
+
+    .categories {
+        margin: 30px 50px;
+    }
+
+    .mobile-accesories {
+        flex-wrap: wrap;
+    }
+
+
+    .digiplus {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .digiplus .box-digi {
+        width: 100%;
+        height: 355px;
+        background-position-x: left;
+
+    }
+
+    .digiplus .grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .digiplus .box {
+        width: 100%;
+        margin-bottom: 10px;
+        height: 100%;
+    }
+
+
+
+    .digiplus .box .card .cost {
+        width: 100%;
+        text-align: right;
+    }
+
+    .digiplus .box .card .text-center img {
+        margin-left: auto;
+
+    }
+
+    .digiclub {
+        height: 202px;
+        position: relative;
+    }
+
+    .digiclub .flex-between {
+        flex-direction: column-reverse;
+    }
+
+    .digiclub .logo {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+
+    .most-bought .grid {
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+
+    .selected .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+    }
+
+
+    .selected .flex-between {
+        width: 100%;
+    }
+
+    .selected {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .selected .card {
+        margin: 0px auto;
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .selected .card .flex-between {
+        max-width: 100%;
+
+    }
+
+    .selected .grid {
+        margin: 0px auto;
+        width: 100%;
+    }
+
+    .a-4-cards {
+        width: 100%;
+    }
+
+    .a-4-cards .cards .flex-between {
+        display: block;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .a-4-cards .card {
+        margin: 0px 20px;
+        max-width: 100%;
+    }
+
+    .a-4-cards .footer h4 {
+        opacity: 0.7;
+    }
+
+    .a-4-cards .footer {
+        margin: 15px 20px 20px;
+    }
+
+    .links .container {
+        display: block;
+    }
+
+    .links .flex {
+        align-items: flex-end;
+        flex-direction: column-reverse;
+    }
+
+    .links .right-column .container-1 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+    .links .left-column {
+        margin: 0px;
+
+    }
+
+    .links .left-column .container-1 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .links .left-column .send-email,
+    .links .left-column .send-email form {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .app .flex-between {
+        flex-direction: column-reverse;
+    }
+
+    .app .right-side {
+        margin-bottom: 20px;
+    }
+
+    .app .right-side img {
+        width: 24px;
+    }
+
+    .app .footer {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .app .left-side .more {
+        display: none;
+    }
+
+    .safe .flex-between {
+        display: block;
+    }
+
+
+
+
+
+}
+
+@media(max-width: 880px) {
+    .a-cards .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media(max-width:800px) {
+    .supermarket-wow .products .product-list .box:last-child {
+        display: none;
+    }
+}
+
+@media(max-width:770px) {
+    .supermarket-wow .products .product-list .box:nth-child(5) {
+        display: none;
+    }
+
+    .digiplus .box .card:nth-child(4),
+    .digiplus .box .card:nth-child(5),
+    .digiplus .box .card:nth-child(6) {
+        display: none;
+    }
+
+    .digiplus .grid {
+        display: flex;
+        margin: 0px auto;
+
+    }
+
+    .links .right-column .hide {
+        display: none;
+    }
+
+
+
+
+}
+
+@media(max-width:750px) {
+    .supermarket-wow {
+        justify-content: right;
+    }
+
+    .supermarket-wow .title .amazing img {
+        width: 190px;
+    }
+
+
+    .supermarket-wow .title div:last-child img {
+        width: 40px;
+    }
+
+    .supermarket-wow {
+        flex-wrap: wrap-reverse;
+
+    }
+
+    .supermarket-wow div:last-child {
+        order: 1;
+    }
+
+    .supermarket-wow .products .product-list .box:nth-child(4) {
+        display: none;
+    }
+}
